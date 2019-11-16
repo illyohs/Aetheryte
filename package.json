@@ -7,10 +7,7 @@
     "scripts": {
         "watch": "tsc -w",
         "build": "tsc && react-scripts build",
-        "electron": "electron ./dist/",
-        "start": "react-scripts start",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "electron": "electron ./dist/"
     },
     "dependencies": {
         "react": "^16.12.0",
