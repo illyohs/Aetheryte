@@ -3,7 +3,6 @@
     "version": "0.0.1",
     "main": "./dist/index.js",
     "repository": "git@github.com:illyohs/Aetheryte.git",
-    "author": "Anthony Anderson <anderson@mdhs.info>",
     "license": "MPL-2.0",
     "scripts": {
         "watch": "tsc -w",
