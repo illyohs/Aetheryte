@@ -1,21 +1,39 @@
 {
-  "name": "Aetheryte",
-  "version": "0.0.1",
-  "main": "./dist/index.js",
-  "repository": "git@github.com:illyohs/Aetheryte.git",
-  "author": "Anthony Anderson <anderson@mdhs.info>",
-  "license": "MPL-2.0",
-  "scripts": {
-    "watch": "tsc -w",
-    "build": "tsc",
-    "run": "electron ./dist/*"
-  },
-  "dependencies": {
-    "electron": "^7.1.1"
-  },
-  "devDependencies": {
-    "tslint": "^5.20.1",
-    "typescript": "^3.7.2",
-    "typescript-tslint-plugin": "^0.5.5"
-  }
+    "name": "aetheryte",
+    "version": "0.0.1",
+    "main": "./dist/index.js",
+    "repository": "git@github.com:illyohs/Aetheryte.git",
+    "author": "Anthony Anderson <anderson@mdhs.info>",
+    "license": "MPL-2.0",
+    "scripts": {
+        "watch": "tsc -w",
+        "build": "tsc && react-scripts build",
+        "electron": "electron ./dist/",
+        "start": "react-scripts start",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
+    },
+    "devDependencies": {
+        "electron": "^7.1.1",
+        "react-scripts": "3.2.0",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.2",
+        "typescript-tslint-plugin": "^0.5.5"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
