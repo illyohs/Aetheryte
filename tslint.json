@@ -4,6 +4,10 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "no-any":true,
+        "semicolon":[true, "always"]
+
+    },
     "rulesDirectory": []
 }
