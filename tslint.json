@@ -21,6 +21,8 @@
         "jsx-equals-spacing": [true, "never"],
         "jsx-no-string-ref": true,
         "jsx-self-close": true
+        "no-any":true,
+        "semicolon":[true, "always"]
     },
     "rulesDirectory": []
 }
